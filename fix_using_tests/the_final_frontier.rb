@@ -12,6 +12,7 @@ def crew
 end
 
 def greet_crew(crew)
+i = ""
   crew.each do |n|
   i = "Hello #{n}."
   end
