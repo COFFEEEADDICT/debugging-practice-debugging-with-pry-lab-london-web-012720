@@ -16,7 +16,6 @@ def greet_crew(crew)
   text = "Hello #{n}."
   puts text
   end
-
   return text
 end
 
