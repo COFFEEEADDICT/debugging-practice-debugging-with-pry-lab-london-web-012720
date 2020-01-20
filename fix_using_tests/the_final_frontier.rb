@@ -16,6 +16,7 @@ end
 def greet_crew(crew)
 crew.each {|n| res = "Hello #{n}."}
 return res
+return res
 end
 
 def engage(crew)
