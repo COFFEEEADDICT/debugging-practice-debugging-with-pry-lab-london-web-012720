@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each (d |n|
+  crew.each do |n|
   text = "Hello #{n}."
   puts text
   end
