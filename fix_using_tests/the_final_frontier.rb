@@ -13,7 +13,7 @@ end
 
 def greet_crew(crew)
 i = []
-  while crew.each do |n|
+  crew.each do |n|
   i = "Hello #{n}."
   end
   return i
