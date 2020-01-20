@@ -20,3 +20,5 @@ end
 def engage(crew)
   greet_crew(crew)
 end
+
+puts greet_crew(crew)
