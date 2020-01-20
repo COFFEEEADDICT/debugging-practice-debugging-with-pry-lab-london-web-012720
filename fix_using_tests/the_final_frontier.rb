@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew(crew)
-i = ""
+i = []
   while crew.each do |n|
   i = "Hello #{n}."
   end
