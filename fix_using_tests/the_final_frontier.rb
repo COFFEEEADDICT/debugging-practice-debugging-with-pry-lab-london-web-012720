@@ -19,7 +19,7 @@ puts res
 return res
 end
 
-def engage
+def engage(crew)
   greet_crew(crew)
 end
 
