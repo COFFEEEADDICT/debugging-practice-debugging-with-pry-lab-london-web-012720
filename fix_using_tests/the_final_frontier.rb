@@ -14,10 +14,11 @@ end
 def greet_crew(crew)
   crew.each do |n|
   text = "Hello #{n}."
-  puts text
+
   end
   return text
 end
+
 
 def engage
   date = generate_star_date
