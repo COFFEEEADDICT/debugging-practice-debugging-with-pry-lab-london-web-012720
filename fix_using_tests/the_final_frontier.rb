@@ -14,8 +14,7 @@ return  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew(crew)
-crew.each
-res = {|n| puts "Hello #{n}."}
+crew.each {|n| res = "Hello #{n}."}
 return res
 end
 
