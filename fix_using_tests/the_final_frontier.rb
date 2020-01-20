@@ -15,7 +15,7 @@ end
 
 def greet_crew(crew)
   crew.each do |crew_member|
-    result = "Hello #{crew_member}."}
+    result = "Hello #{crew_member}."
 return result
 end
 
