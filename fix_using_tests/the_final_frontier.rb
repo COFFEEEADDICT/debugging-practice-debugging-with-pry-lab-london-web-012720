@@ -12,12 +12,12 @@ def crew
 end
 
 def greet_crew(crew)
-crew.each (d |n|
-text = "Hello #{n}."
-puts text
-end
+  crew.each (d |n|
+  text = "Hello #{n}."
+  puts text
+  end
 
-return text
+  return text
 end
 
 def engage
