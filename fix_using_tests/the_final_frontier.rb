@@ -12,10 +12,7 @@ def crew
 end
 
 def greet_crew(crew)
-crew.each { |n| p "Hello #{n}." }
-  puts endd
-end
-return endd
+crew.each { |n| return "Hello #{n}." }
 end
 
 def engage(crew)
