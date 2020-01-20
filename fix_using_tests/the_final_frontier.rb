@@ -13,7 +13,7 @@ end
 
 def greet_crew(crew)
 crew.each {|n| i = "Hello #{n}."}
-
+return i
 end
 
 def engage
