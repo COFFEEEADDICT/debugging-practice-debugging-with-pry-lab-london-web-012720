@@ -18,7 +18,7 @@ def greet_crew(crew)
   return text
 end
 
-p greet_crew(crew)
+puts greet_crew(crew)
 
 def engage
   date = generate_star_date
