@@ -16,6 +16,7 @@ crew.each { |n| "Hello #{n}." }
 end
 
 def engage(crew)
-  state_log(generate_star_date)
+  date = generate_star_date
+  state_log(date)
   greet_crew(crew)
 end
