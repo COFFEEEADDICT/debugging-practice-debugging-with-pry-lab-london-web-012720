@@ -19,7 +19,6 @@ i = []
   return i
 end
 
-puts greet_crew(crew)
 
 def engage
   date = generate_star_date
