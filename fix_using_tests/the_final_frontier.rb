@@ -19,4 +19,4 @@ def engage(crew)
   greet_crew(crew)
 end
 
-p engage(crew)
+puts engage(crew)
