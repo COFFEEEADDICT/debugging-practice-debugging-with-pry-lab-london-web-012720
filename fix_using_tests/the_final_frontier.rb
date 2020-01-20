@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew(crew)
-crew.each { |n| store = "Hello #{n}." }
+crew.each   store = { |n| "Hello #{n}." }
 puts store
 return store
 end
