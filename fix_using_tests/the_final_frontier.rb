@@ -18,6 +18,5 @@ def greet_crew(crew)
 end
 
 def engage(crew)
-
   greet_crew(crew)
 end
