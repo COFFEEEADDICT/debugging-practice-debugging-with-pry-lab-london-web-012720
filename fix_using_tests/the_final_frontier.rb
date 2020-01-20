@@ -14,6 +14,7 @@ end
 def greet_crew(crew)
 crew.each do |n|
 text = "Hello #{n}."
+end
 puts text
 return text
 end
