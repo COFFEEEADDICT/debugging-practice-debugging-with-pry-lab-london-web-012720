@@ -14,9 +14,10 @@ def crew
 end
 
 def greet_crew(crew)
-crew.each {|n| res = "Hello #{n}."}
-puts res
-return res
+crew.each do |n| 
+  result = "Hello #{n}."}
+puts result
+return result
 end
 
 def engage(crew)
