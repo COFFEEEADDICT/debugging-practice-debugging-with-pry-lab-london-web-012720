@@ -15,11 +15,12 @@ end
 
 def greet_crew(crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
-  
+
 end
 
 def engage
-  #date = generate_star_date
-  #state_log(date)
+  date = generate_star_date
+  binding.pry
+  state_log(date)
   greet_crew(crew)
 end
