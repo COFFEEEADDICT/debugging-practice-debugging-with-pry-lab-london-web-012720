@@ -13,8 +13,7 @@ end
 
 def greet_crew(crew)
 crew.each  {|n| puts "Hello #{n}."}
-puts n
-return n
+
 end
 
 def engage
