@@ -13,6 +13,7 @@ end
 
 def greet_crew(crew)
 crew.each {|n| i = "Hello #{n}."}
+puts i
 return i
 end
 
