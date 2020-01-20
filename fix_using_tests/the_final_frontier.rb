@@ -14,7 +14,8 @@ return  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew(crew)
-  crew.each {|n| puts "Hello #{n}."}
+res  = crew.each {|n| puts "Hello #{n}."}
+return res
 end
 
 def engage(crew)
